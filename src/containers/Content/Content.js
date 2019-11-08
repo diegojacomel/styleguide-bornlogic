@@ -8,6 +8,9 @@ import { Container, Title } from 'bornlogic-react-components';
 // Local Components
 import GettingStarted from 'components/GettingStarted';
 import ButtonDoc from 'components/ButtonDoc';
+import ButtonCloseDoc from 'components/ButtonCloseDoc';
+import ButtonIconDoc from 'components/ButtonIconDoc';
+import CheckboxDoc from 'components/CheckboxDoc';
 
 const ContentWrapper = styled('header')`
     background: #ffffff;
@@ -30,6 +33,9 @@ function Content() {
                 </Title>
 
                 <ButtonDoc />
+                <ButtonCloseDoc />
+                <ButtonIconDoc />
+                <CheckboxDoc />
             </Container>
         </ContentWrapper>
     )

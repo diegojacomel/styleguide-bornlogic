@@ -98,10 +98,10 @@ function ButtonDoc() {
                         type: string
                     </Text>
                     <Spacing>
-                        <Button fontColor="grey2" backgroundColor="grey7">Grey</Button>
+                        <Button fontColor="purple" backgroundColor="pink" fontHoverColor="white">Grey</Button>
                     </Spacing>
                     <SyntaxHighlighter language="html" style={docco}>
-{`<Button fontColor="grey2" backgroundColor="grey7">Grey</Button>
+{`<Button fontColor="purple" backgroundColor="pink" fontHoverColor="white">Grey</Button>
 `}                        
                     </SyntaxHighlighter>
                 </Spacing>
