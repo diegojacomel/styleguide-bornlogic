@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import { Title } from 'bornlogic-react-components';
 
 const HeaderWrapper = styled('header')`
-    background: #1d87c8;
+    background: #561EA5;
     color: #ffffff;
     padding: 10px 30px;
     text-align: center;

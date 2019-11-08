@@ -37,10 +37,10 @@ function GettingStarted() {
             <Space />
 
             <Title tag="h3" marginBottom="px10">
-                How can I install the library?
+                How can I import components?
             </Title>
             <SyntaxHighlighter language="javascript" style={docco}>
-                {`import { Button } from 'bornlogic-react-components'`}
+                {`import { ComponentName } from 'bornlogic-react-components'`}
             </SyntaxHighlighter>
         </Wrapper>
     )
