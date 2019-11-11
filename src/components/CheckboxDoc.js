@@ -24,10 +24,10 @@ function CheckboxDoc() {
                 <Checkbox
                     name="checkbox_1"
                     id="checkbox_1"
-                    onClick={(e) => console.log(`You selected the checkbox: ${e.target.name}`)}
+                    onClick={(e) => console.log(`You ${!!e.target.checked ? '' : 'un'}selected the checkbox: ${e.target.name}`)}
                     color="green3"
                 />
-                <label style={{paddingLeft: "5px"}} for="checkbox_1">
+                <label style={{paddingLeft: "5px"}} htmlFor="checkbox_1">
                     Checkbox 1
                 </label>
             </FormControl>
@@ -36,10 +36,10 @@ function CheckboxDoc() {
     <Checkbox
         name="checkbox_1"
         id="checkbox_1"
-        onClick={(e) => console.log("You selected the checkbox: e.target.value")}
+         onClick={(e) => console.log("You {!!e.target.checked ? '' : 'un'}selected the checkbox: {e.target.name}")}
         color="green3"
     />
-    <label style={{paddingLeft: "5px"}} for="checkbox_1">
+    <label style={{paddingLeft: "5px"}} htmlFor="checkbox_1">
         Checkbox 1
     </label>
 </FormControl>
