@@ -20,7 +20,7 @@ function ButtonCloseDoc() {
             <Title tag="h4" marginBottom="px10">
                 Basic usage
             </Title>
-            <ButtonClose onClick={() => alert('ButtonClose was clicked')} />
+            <ButtonClose onClick={() => alert('ButtonClose was clicked')} showButton styleguide />
             <SyntaxHighlighter language="html" style={docco}>
 {`<ButtonClose onClick={() => alert('ButtonClose was clicked')} />
 `}

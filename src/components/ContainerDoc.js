@@ -33,11 +33,15 @@ function ContainerDoc() {
                 Basic usage
             </Title>
             <Container>
-                Container
+                <div style={{ background: '#f2f2f2', width: '100%' }}>
+                    Container
+                </div>
             </Container>
             <SyntaxHighlighter language="html" style={docco}>
 {`<Container>
-    Container
+    <div style={{ background: '#f2f2f2', width: '100%' }}>
+        Container
+    </div>
 </Container>
 `}
             </SyntaxHighlighter>
@@ -58,13 +62,17 @@ function ContainerDoc() {
                 </Spacing>
                 <Spacing>
                     <Container maxWidth="200px">
-                        Container
+                        <div style={{ background: '#f2f2f2', width: '100%' }}>
+                            Container
+                        </div>
                     </Container>
                 </Spacing>
                 <Spacing>
                         <SyntaxHighlighter language="html" style={docco}>
 {`<Container maxWidth="200px">
-    Container
+    <div style={{ background: '#f2f2f2', width: '100%' }}>
+        Container
+    </div>
 </Container>
 `}
                         </SyntaxHighlighter>

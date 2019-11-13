@@ -5,7 +5,7 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 // Components
-import { Title, FormControl, Checkbox } from 'bornlogic-react-components';
+import { Title, FormControl, Checkbox, Label } from 'bornlogic-react-components';
 
 const Spacing = styled('div')`
     margin-bottom: 40px;
@@ -27,21 +27,21 @@ function CheckboxDoc() {
                     onClick={(e) => console.log(`You ${!!e.target.checked ? '' : 'un'}selected the checkbox: ${e.target.name}`)}
                     color="green3"
                 />
-                <label style={{paddingLeft: "5px"}} htmlFor="checkbox_1">
+                <Label leftSpace htmlFor="checkbox_1">
                     Checkbox 1
-                </label>
+                </Label>
             </FormControl>
             <SyntaxHighlighter language="html" style={docco}>
 {`<FormControl inline>
     <Checkbox
         name="checkbox_1"
         id="checkbox_1"
-         onClick={(e) => console.log("You {!!e.target.checked ? '' : 'un'}selected the checkbox: {e.target.name}")}
+        onClick={(e) => console.log('You {!!e.target.checked ? '' : 'un'}selected the checkbox: {e.target.name}')}
         color="green3"
     />
-    <label style={{paddingLeft: "5px"}} htmlFor="checkbox_1">
+    <Label leftSpace htmlFor="checkbox_1">
         Checkbox 1
-    </label>
+    </Label>
 </FormControl>
 `}
             </SyntaxHighlighter>    

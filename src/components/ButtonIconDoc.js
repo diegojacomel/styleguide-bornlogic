@@ -20,7 +20,7 @@ function ButtonIconDoc() {
             <Title tag="h4" marginBottom="px10">
                 Basic usage
             </Title>
-            <ButtonIcon icon={['far', 'chevron-down']} onClick={() => alert('ButtonClose was clicked')} />
+            <ButtonIcon onClick={() => alert('ButtonIcon was clicked')} />
             <SyntaxHighlighter language="html" style={docco}>
 {`<ButtonIcon onClick={() => alert('ButtonIcon was clicked')} />
 `}

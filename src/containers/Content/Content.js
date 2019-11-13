@@ -16,6 +16,7 @@ import CounterBallDoc from 'components/CounterBallDoc';
 import EmptyContentDoc from 'components/EmptyContentDoc';
 import FormControlDoc from 'components/FormControlDoc';
 import ImageDoc from 'components/ImageDoc';
+import InputDoc from 'components/InputDoc';
 import LabelDoc from 'components/LabelDoc';
 import LoadingDoc from 'components/LoadingDoc';
 import ModalDoc from 'components/ModalDoc';
@@ -54,6 +55,7 @@ function Content() {
                 <EmptyContentDoc />
                 <FormControlDoc />
                 <ImageDoc />
+                <InputDoc />
                 <LabelDoc />
                 <LoadingDoc />
                 <ModalDoc />

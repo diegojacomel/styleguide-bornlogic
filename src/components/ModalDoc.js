@@ -31,7 +31,7 @@ function ModalDoc() {
                 confirmButton={() => setToggleModal(false)}
                 confirmButtonText="Finish"
             >
-                Oi
+                Content
             </Modal>
             <Spacing>
                 <SyntaxHighlighter language="html" style={docco}>
@@ -47,7 +47,7 @@ function ModalDoc() {
     confirmButton={() => setToggleModal(false)}
     confirmButtonText="Finish"
 >
-    Oi
+    Content
 </Modal>
 `}
                 </SyntaxHighlighter>

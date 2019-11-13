@@ -5,7 +5,7 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 // Components
-import { Title, FormControl } from 'bornlogic-react-components';
+import { Title, FormControl, Label, Input } from 'bornlogic-react-components';
 
 const Spacing = styled('div')`
     margin-bottom: 40px;
@@ -19,19 +19,19 @@ function FormControlDoc() {
             </Title>
             <Spacing>
                 <FormControl>
-                    <label htmlFor="input">
+                    <Label htmlFor="input">
                         Label: 
-                    </label>
-                    <input
+                    </Label>
+                    <Input
                         name="input"
                     />
                 </FormControl>
                 <SyntaxHighlighter language="html" style={docco}>
-{`<FormControl title="Title: " message="My message">
-    <label htmlFor="input">
+{`<FormControl>
+    <Label htmlFor="input">
         Label: 
-    </label>
-    <input
+    </Label>
+    <Input
         name="input"
     />
 </FormControl>
@@ -40,20 +40,20 @@ function FormControlDoc() {
             </Spacing>
             <Spacing>
                 <FormControl inline>
-                    <label htmlFor="input">
+                    <Label htmlFor="input">
                         Label: 
-                    </label>
-                    <input
+                    </Label>
+                    <Input
                         name="input"
                     />
                 </FormControl>
             
                 <SyntaxHighlighter language="html" style={docco}>
 {`<FormControl inline>
-    <label htmlFor="input">
+    <Label htmlFor="input">
         Label: 
-    </label>
-    <input
+    </Label>
+    <Input
         name="input"
     />
 </FormControl>
