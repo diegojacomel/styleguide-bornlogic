@@ -27,7 +27,7 @@ function ButtonDoc() {
     return (
         <>
             <Spacing id="button">
-                <Title tag="h3" marginBottom="px10">
+                <Title tag="h3" marginBottom="px20">
                     Button
                 </Title>
                 <Title tag="h4" marginBottom="px10">
@@ -39,7 +39,7 @@ function ButtonDoc() {
                 </SyntaxHighlighter>
             </Spacing>
             <Spacing id="button">
-                <Title tag="h4" marginBottom="px10">
+                <Title tag="h4" marginBottom="px20">
                     Props
                 </Title>
                 <Spacing>

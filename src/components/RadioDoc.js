@@ -15,7 +15,7 @@ function RadioDoc() {
     return (
         <Spacing>
             <Spacing>
-                <Title tag="h3" marginBottom="px10">
+                <Title tag="h3" marginBottom="px20">
                     Panel
                 </Title>
                 <FormControl>

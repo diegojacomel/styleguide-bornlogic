@@ -14,21 +14,19 @@ const Spacing = styled('div')`
 function CounterBallDoc() {
     return (
         <Spacing>
-            <Title tag="h3" marginBottom="px10">
+            <Title tag="h3" marginBottom="px20">
                 CounterBall
             </Title>
             <CounterBall
                 backgroundColor="green3"
                 fontColor="white"
                 counter={10}
-                alignTop
             />
             <SyntaxHighlighter language="html" style={docco}>
 {`<CounterBall
     backgroundColor="green3"
     fontColor="white"
     counter={10}
-    alignTop
 />
 `}
             </SyntaxHighlighter>

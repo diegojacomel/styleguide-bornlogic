@@ -15,8 +15,11 @@ function SelectDoc() {
     return (
         <Spacing>
             <Spacing>
-                <Title tag="h3" marginBottom="px10">
-                    Panel
+                <Title tag="h3" marginBottom="px20">
+                    Select
+                </Title>
+                <Title tag="h4" marginBottom="px20">
+                    Basic usage
                 </Title>
                 <Select
                     onChange={() => {}}

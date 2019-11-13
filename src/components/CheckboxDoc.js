@@ -14,7 +14,7 @@ const Spacing = styled('div')`
 function CheckboxDoc() {
     return (
         <Spacing>
-            <Title tag="h3" marginBottom="px10">
+            <Title tag="h3" marginBottom="px20">
                 Checkbox
             </Title>
             <Title tag="h4" marginBottom="px10">

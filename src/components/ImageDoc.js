@@ -11,11 +11,26 @@ const Spacing = styled('div')`
     margin-bottom: 40px;
 `
 
+const Text = styled('p')`
+${({ bold }) =>`
+    ${bold
+        ?
+        `
+        font-weight: bold;
+        `
+        :
+        ``
+    }
+`}`
+
 function ImageDoc() {
     return (
         <Spacing>
-            <Title tag="h3" marginBottom="px10">
+            <Title tag="h3" marginBottom="px20">
                 Image
+            </Title>
+            <Title tag="h4" marginBottom="px20">
+                Basic usage
             </Title>
             <Spacing>
                 <Image
@@ -29,6 +44,44 @@ function ImageDoc() {
 />
 `}
                 </SyntaxHighlighter>
+            </Spacing>
+            <Spacing>
+                <Title tag="h4" marginBottom="px20">
+                    Props
+                </Title>
+                <Spacing>
+                    <Text bold>
+                        src
+                    </Text>
+                    <Text>
+                        It specifies the image url to be shown.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
+            </Spacing>
+            <Spacing>
+                <Text bold>
+                    alt
+                </Text>
+                <Text>
+                    It specifies the image description case the image can't to be shown.
+                </Text>
+                <Text>
+                    type: string
+                </Text>
+            </Spacing>
+            <Spacing>
+                <Text bold>
+                    id
+                </Text>
+                <Text>
+                    It specifies the image id.
+                </Text>
+                <Text>
+                    type: any
+                </Text>
             </Spacing>
         </Spacing>
     )

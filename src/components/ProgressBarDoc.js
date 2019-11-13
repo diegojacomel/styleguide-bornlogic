@@ -15,7 +15,7 @@ function ProgressBarDoc() {
     return (
         <Spacing>
             <Spacing>
-                <Title tag="h3" marginBottom="px10">
+                <Title tag="h3" marginBottom="px20">
                     Panel
                 </Title>
                 <ProgressBar percentage={60} color="#1b7db5" />

@@ -16,7 +16,7 @@ function ModalDoc() {
 
     return (
         <Spacing>
-            <Title tag="h3" marginBottom="px10">
+            <Title tag="h3" marginBottom="px20">
                 Modal
             </Title>
             <Button onClick={() => setToggleModal(true)}>

@@ -25,28 +25,30 @@ ${({ bold }) =>`
 
 function ContainerDoc() {
     return (
-        <Spacing>
-            <Title tag="h3" marginBottom="px10">
-                Container
-            </Title>
-            <Title tag="h4" marginBottom="px10">
-                Basic usage
-            </Title>
-            <Container>
-                <div style={{ background: '#f2f2f2', width: '100%' }}>
+        <>
+            <Spacing>
+                <Title tag="h3" marginBottom="px20">
                     Container
-                </div>
-            </Container>
-            <SyntaxHighlighter language="html" style={docco}>
+                </Title>
+                <Title tag="h4" marginBottom="px10">
+                    Basic usage
+                </Title>
+                <Container>
+                    <div style={{ background: '#f2f2f2', width: '100%' }}>
+                        Container
+                    </div>
+                </Container>
+                <SyntaxHighlighter language="html" style={docco}>
 {`<Container>
     <div style={{ background: '#f2f2f2', width: '100%' }}>
         Container
     </div>
 </Container>
 `}
-            </SyntaxHighlighter>
+                </SyntaxHighlighter>
+            </Spacing>
             <Spacing>
-                <Title tag="h4" marginBottom="px10">
+                <Title tag="h4" marginBottom="px20">
                     Props
                 </Title>
                 <Spacing>
@@ -78,7 +80,7 @@ function ContainerDoc() {
                         </SyntaxHighlighter>
                     </Spacing>
             </Spacing>
-        </Spacing>
+        </>
     )
 }
 

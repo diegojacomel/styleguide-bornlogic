@@ -14,8 +14,11 @@ const Spacing = styled('div')`
 function LabelDoc() {
     return (
         <Spacing>
-            <Title tag="h3" marginBottom="px10">
+            <Title tag="h3" marginBottom="px20">
                 Label
+            </Title>
+            <Title tag="h4" marginBottom="px20">
+                Basic usage
             </Title>
             <Spacing>
                 <Label>

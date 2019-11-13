@@ -14,7 +14,7 @@ const Spacing = styled('div')`
 function LocalLoadingDoc() {
     return (
         <Spacing>
-            <Title tag="h3" marginBottom="px10">
+            <Title tag="h3" marginBottom="px20">
                 Loading
             </Title>
             <Spacing>

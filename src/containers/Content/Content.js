@@ -37,12 +37,12 @@ function Content() {
     return (
         <ContentWrapper>
             <Container>
-                <Title tag="h2" marginBottom="px10">
+                <Title tag="h2" marginBottom="px30">
                     Getting Started
                 </Title>
                 <GettingStarted />
 
-                <Title tag="h2" marginBottom="px10">
+                <Title tag="h2" marginBottom="px30">
                     Components
                 </Title>
 
