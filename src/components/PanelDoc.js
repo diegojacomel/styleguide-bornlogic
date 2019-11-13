@@ -29,7 +29,7 @@ function PanelDoc() {
                 </Panel>
             </Spacing>
             <Spacing>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Panel
     title="Title"
     subtitle="Subtitle"

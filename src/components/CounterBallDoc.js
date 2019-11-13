@@ -22,7 +22,7 @@ function CounterBallDoc() {
                 fontColor="white"
                 counter={10}
             />
-            <SyntaxHighlighter language="html" style={docco}>
+            <SyntaxHighlighter language="react" style={docco}>
 {`<CounterBall
     backgroundColor="green3"
     fontColor="white"

@@ -38,7 +38,7 @@ function ContainerDoc() {
                         Container
                     </div>
                 </Container>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Container>
     <div style={{ background: '#f2f2f2', width: '100%' }}>
         Container
@@ -70,7 +70,7 @@ function ContainerDoc() {
                     </Container>
                 </Spacing>
                 <Spacing>
-                        <SyntaxHighlighter language="html" style={docco}>
+                        <SyntaxHighlighter language="react" style={docco}>
 {`<Container maxWidth="200px">
     <div style={{ background: '#f2f2f2', width: '100%' }}>
         Container

@@ -21,7 +21,7 @@ function ProgressBarDoc() {
                 <ProgressBar percentage={60} color="#1b7db5" />
             </Spacing>
             <Spacing>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<ProgressBar percentage={60} color="#1b7db5" />
 `}
                 </SyntaxHighlighter>

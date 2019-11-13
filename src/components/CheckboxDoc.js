@@ -31,7 +31,7 @@ function CheckboxDoc() {
                     Checkbox 1
                 </Label>
             </FormControl>
-            <SyntaxHighlighter language="html" style={docco}>
+            <SyntaxHighlighter language="react" style={docco}>
 {`<FormControl inline>
     <Checkbox
         name="checkbox_1"

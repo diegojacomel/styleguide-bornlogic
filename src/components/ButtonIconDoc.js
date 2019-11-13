@@ -21,7 +21,7 @@ function ButtonIconDoc() {
                 Basic usage
             </Title>
             <ButtonIcon onClick={() => alert('ButtonIcon was clicked')} />
-            <SyntaxHighlighter language="html" style={docco}>
+            <SyntaxHighlighter language="react" style={docco}>
 {`<ButtonIcon onClick={() => alert('ButtonIcon was clicked')} />
 `}
             </SyntaxHighlighter>    

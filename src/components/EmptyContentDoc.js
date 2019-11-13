@@ -21,7 +21,7 @@ function EmptyContentDoc() {
                 title="Title: "
                 message="My message"
             />
-            <SyntaxHighlighter language="html" style={docco}>
+            <SyntaxHighlighter language="react" style={docco}>
 {`<EmptyContent
     title="Title: "
     message="My message"

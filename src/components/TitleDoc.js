@@ -38,7 +38,7 @@ function TitleDoc() {
                 </Title>
             </Spacing>
             <Spacing>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Title>
     Title example
 </Title>
@@ -84,7 +84,7 @@ function TitleDoc() {
                     </Title>
                 </Spacing>
                 <Spacing>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Title tag="h1" marginBottom="px10">
     Title 1
 </Title>

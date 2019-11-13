@@ -34,7 +34,7 @@ function ModalDoc() {
                 Content
             </Modal>
             <Spacing>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Button onClick={() => setToggleModal(true)}>
     Open Modal
 </Button>

@@ -19,7 +19,7 @@ function LocalLoadingDoc() {
             </Title>
             <Spacing>
             <LocalLoading isLoading={true} image="https://picsum.photos/30/30" />
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<LocalLoading isLoading={true} />
 `}
                 </SyntaxHighlighter>

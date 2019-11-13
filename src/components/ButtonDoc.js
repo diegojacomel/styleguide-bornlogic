@@ -34,7 +34,7 @@ function ButtonDoc() {
                     Basic usage
                 </Title>
                 <Button>Click here</Button>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
                     {`<Button>Click here</Button>`}
                 </SyntaxHighlighter>
             </Spacing>
@@ -74,7 +74,7 @@ function ButtonDoc() {
                         <Button backgroundColor="brown">Brown</Button>
                     </Spacing>
                     <Spacing>
-                        <SyntaxHighlighter language="html" style={docco}>
+                        <SyntaxHighlighter language="react" style={docco}>
 {`<Button backgroundColor="green3" backgroundHoverColor="green2">Green</Button>
 <Button backgroundColor="blue2" backgroundHoverColor="blue1">Blue</Button>
 <Button backgroundColor="red3" backgroundHoverColor="red2">Red</Button>
@@ -100,7 +100,7 @@ function ButtonDoc() {
                     <Spacing>
                         <Button fontColor="purple" backgroundColor="pink" fontHoverColor="white">Grey</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button fontColor="purple" backgroundColor="pink" fontHoverColor="white">Grey</Button>
 `}                        
                     </SyntaxHighlighter>
@@ -125,7 +125,7 @@ function ButtonDoc() {
                         <Button backgroundColor="brown" outline>Brown</Button>
                         <Button backgroundColor="grey3" outline>Grey</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button backgroundColor="green3" outline>Green</Button>
 <Button backgroundColor="blue2" outline>Blue</Button>
 <Button backgroundColor="red3" outline>Red</Button>
@@ -157,7 +157,7 @@ function ButtonDoc() {
                         <Button fontSize="px18">fontSize</Button>
                         <Button fontSize="px20">fontSize</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button fontSize="px8">fontSize</Button>
 <Button fontSize="px10">fontSize</Button>
 <Button fontSize="px11">fontSize</Button>
@@ -188,7 +188,7 @@ function ButtonDoc() {
                         <Button size="px30">Size</Button>
                         <Button size="px40">Size</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button size="px5">Size</Button>
 <Button size="px10">Size</Button>
 <Button size="px15">Size</Button>
@@ -216,7 +216,7 @@ function ButtonDoc() {
                         <Button rounded="px10">Rounded</Button>
                         <Button rounded="full">Rounded</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button rounded="none">Rounded</Button>
 <Button rounded="px3">Rounded</Button>
 <Button rounded="px5">Rounded</Button>
@@ -238,7 +238,7 @@ function ButtonDoc() {
                     <Spacing>
                         <Button block>Block</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button block>Block</Button>
 `}
                     </SyntaxHighlighter>
@@ -256,7 +256,7 @@ function ButtonDoc() {
                     <Spacing>
                         <Button disabled>Disabled</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button disabled>Disabled</Button>
 `}
                     </SyntaxHighlighter>
@@ -274,7 +274,7 @@ function ButtonDoc() {
                     <Spacing>
                         <Button onClick={() => alert('Button was clicked')}>onClick</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="html" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Button onClick={() => alert('Button was clicked')}>onClick</Button>
 `}
                     </SyntaxHighlighter>

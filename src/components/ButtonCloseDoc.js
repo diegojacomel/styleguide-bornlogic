@@ -21,7 +21,7 @@ function ButtonCloseDoc() {
                 Basic usage
             </Title>
             <ButtonClose onClick={() => alert('ButtonClose was clicked')} showButton styleguide />
-            <SyntaxHighlighter language="html" style={docco}>
+            <SyntaxHighlighter language="react" style={docco}>
 {`<ButtonClose onClick={() => alert('ButtonClose was clicked')} />
 `}
             </SyntaxHighlighter>    

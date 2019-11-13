@@ -35,7 +35,7 @@ function SelectDoc() {
                 </Select>
             </Spacing>
             <Spacing>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Select
     onChange={() => {}}
     withBorder

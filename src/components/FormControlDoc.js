@@ -41,7 +41,7 @@ function FormControlDoc() {
                         name="input"
                     />
                 </FormControl>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<FormControl>
     <Label htmlFor="input">
         Label: 
@@ -79,7 +79,7 @@ function FormControlDoc() {
                     />
                 </FormControl>
             
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<FormControl inline>
     <Label htmlFor="input">
         Label: 

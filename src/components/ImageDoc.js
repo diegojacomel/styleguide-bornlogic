@@ -37,7 +37,7 @@ function ImageDoc() {
                     src="https://picsum.photos/200/300"
                     alt="Image description"
                 />
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Image
     src="https://picsum.photos/200/300"
     alt="Image description"

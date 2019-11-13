@@ -24,7 +24,7 @@ function RadioDoc() {
                 </FormControl>
             </Spacing>
             <Spacing>
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<FormControl>
     <Radio name="radio" id="radio_1" text="Option 1" />
     <Radio name="radio" id="radio_2" text="Option 2" />

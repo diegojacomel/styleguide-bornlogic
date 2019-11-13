@@ -32,7 +32,7 @@ function InputDoc() {
                     // onKeyUp={onKeyUp}
                     // onChange={onChange}
                 />
-                <SyntaxHighlighter language="html" style={docco}>
+                <SyntaxHighlighter language="react" style={docco}>
 {`<Input
     type="text"
     onChange={(e) => console.log('Content typed: {e.target.value}')}
