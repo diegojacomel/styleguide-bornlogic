@@ -2420,10 +2420,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bornlogic-react-components@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/bornlogic-react-components/-/bornlogic-react-components-0.8.0.tgz#416810350e31430b8b3bf57a699f22684dbd11b7"
-  integrity sha512-Hm3JTBa4QZpq+WX84xzRVXoXSogXoqLH6566pNPZNIJAmEMnyTKwMJ03YcNeFMQ8kdVNnBg6XiENdyskkuPLLA==
+bornlogic-react-components@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/bornlogic-react-components/-/bornlogic-react-components-0.8.1.tgz#ce9a6b51e1ec321fbfb7c5522ed330dbe18aa74c"
+  integrity sha512-IUbJHU+TIYtF9Ir3LiRvFwuG3MrBlK6ZFzThE38MNVVCe9W/vbZFlvnUBs1P8lD/K1LzT3jXlAB7Plwyn0MyHA==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.21"
     "@fortawesome/free-solid-svg-icons" "^5.10.1"
