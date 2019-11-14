@@ -75,14 +75,58 @@ function ButtonDoc() {
                     </Spacing>
                     <Spacing>
                         <SyntaxHighlighter language="react" style={docco}>
-{`<Button backgroundColor="green3" backgroundHoverColor="green2">Green</Button>
-<Button backgroundColor="blue2" backgroundHoverColor="blue1">Blue</Button>
-<Button backgroundColor="red3" backgroundHoverColor="red2">Red</Button>
-<Button backgroundColor="orange3" backgroundHoverColor="orange2">Orange</Button>
-<Button backgroundColor="grey3" backgroundHoverColor="grey2">Grey</Button>
-<Button backgroundColor="pink">Pink</Button>
-<Button backgroundColor="purple">Purple</Button>
-<Button backgroundColor="brown">Brown</Button>
+{`<Button 
+    backgroundColor="green3"
+    backgroundHoverColor="green2"
+>
+    Green
+</Button>
+
+<Button 
+    backgroundColor="blue2"
+    backgroundHoverColor="blue1"
+>
+    Blue
+</Button>
+
+<Button
+    backgroundColor="red3"
+    backgroundHoverColor="red2"
+>
+    Red
+</Button>
+
+<Button 
+    backgroundColor="orange3"
+    backgroundHoverColor="orange2"
+>
+    Orange
+</Button>
+
+<Button 
+    backgroundColor="grey3"
+    backgroundHoverColor="grey2"
+>
+    Grey
+</Button>
+
+<Button 
+    backgroundColor="pink"
+>
+    Pink
+</Button>
+
+<Button
+    backgroundColor="purple"
+>
+    Purple
+</Button>
+
+<Button
+    backgroundColor="brown"
+>
+    Brown
+</Button>
 `}
                         </SyntaxHighlighter>
                     </Spacing>
@@ -100,8 +144,14 @@ function ButtonDoc() {
                     <Spacing>
                         <Button fontColor="purple" backgroundColor="pink" fontHoverColor="white">Grey</Button>
                     </Spacing>
-                    <SyntaxHighlighter language="react" style={docco}>
-{`<Button fontColor="purple" backgroundColor="pink" fontHoverColor="white">Grey</Button>
+                    <SyntaxHighlighter language="react" style={docco} wrapLines={true}>
+{`<Button 
+    fontColor="purple"
+    backgroundColor="pink"
+    fontHoverColor="white"
+>
+    Grey
+</Button>
 `}                        
                     </SyntaxHighlighter>
                 </Spacing>
@@ -126,14 +176,61 @@ function ButtonDoc() {
                         <Button backgroundColor="grey3" outline>Grey</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
-{`<Button backgroundColor="green3" outline>Green</Button>
-<Button backgroundColor="blue2" outline>Blue</Button>
-<Button backgroundColor="red3" outline>Red</Button>
-<Button backgroundColor="orange3" outline>Orange</Button>
-<Button backgroundColor="pink" outline>Pink</Button>
-<Button backgroundColor="purple" outline>Purple</Button>
-<Button backgroundColor="brown" outline>Brown</Button>
-<Button backgroundColor="grey3" outline>Grey</Button>
+{`<Button 
+    backgroundColor="green3" 
+    outline
+>
+    Green
+</Button>
+
+<Button 
+    backgroundColor="blue2" 
+    outline
+>
+    Blue
+</Button>
+
+<Button 
+    backgroundColor="red3" 
+    outline
+>
+    Red
+</Button>
+
+<Button 
+    backgroundColor="orange3" 
+    outline
+>
+    Orange
+</Button>
+
+<Button 
+    backgroundColor="pink" 
+    outline
+>
+    Pink
+</Button>
+
+<Button 
+    backgroundColor="purple" 
+    outline
+>
+    Purple
+</Button>
+
+<Button 
+    backgroundColor="brown" 
+    outline
+>
+    Brown
+</Button>
+
+<Button 
+    backgroundColor="grey3" 
+    outline
+>
+    Grey
+</Button>
 `}
                     </SyntaxHighlighter>
                 </Spacing>
@@ -158,14 +255,51 @@ function ButtonDoc() {
                         <Button fontSize="px20">fontSize</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
-{`<Button fontSize="px8">fontSize</Button>
-<Button fontSize="px10">fontSize</Button>
-<Button fontSize="px11">fontSize</Button>
-<Button fontSize="px12">fontSize</Button>
-<Button fontSize="px14">fontSize</Button>
-<Button fontSize="px16">fontSize</Button>
-<Button fontSize="px18">fontSize</Button>
-<Button fontSize="px20">fontSize</Button>
+{`<Button fontSize="px8">
+    fontSize
+</Button>
+
+<Button 
+    fontSize="px10"
+>
+    fontSize
+</Button>
+
+<Button 
+    fontSize="px11"
+>
+    fontSize
+</Button>
+
+<Button 
+    fontSize="px12"
+>
+    fontSize
+</Button>
+
+<Button 
+    fontSize="px14"
+>
+    fontSize
+</Button>
+
+<Button 
+    fontSize="px16"
+>
+    fontSize
+</Button>
+
+<Button 
+    fontSize="px18"
+>
+    fontSize
+</Button>
+
+<Button 
+    fontSize="px20"
+>
+    fontSize
+</Button>
 `}
                     </SyntaxHighlighter>
                 </Spacing>
@@ -189,13 +323,47 @@ function ButtonDoc() {
                         <Button size="px40">Size</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
-{`<Button size="px5">Size</Button>
-<Button size="px10">Size</Button>
-<Button size="px15">Size</Button>
-<Button size="px16">Size</Button>
-<Button size="px20">Size</Button>
-<Button size="px30">Size</Button>
-<Button size="px40">Size</Button>
+{`<Button
+    size="px5"
+>
+    Size
+</Button>
+
+<Button 
+    size="px10"
+>
+    Size
+</Button>
+
+<Button 
+    size="px15"
+>
+    Size
+</Button>
+
+<Button 
+    size="px16"
+>
+    Size
+</Button>
+
+<Button 
+    size="px20"
+>
+    Size
+</Button>
+
+<Button 
+    size="px30"
+>
+    Size
+</Button>
+
+<Button 
+    size="px40"
+>
+    Size
+</Button>
 `}
                     </SyntaxHighlighter>
                 </Spacing>
@@ -217,11 +385,35 @@ function ButtonDoc() {
                         <Button rounded="full">Rounded</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
-{`<Button rounded="none">Rounded</Button>
-<Button rounded="px3">Rounded</Button>
-<Button rounded="px5">Rounded</Button>
-<Button rounded="px10">Rounded</Button>
-<Button rounded="full">Rounded</Button>
+{`<Button 
+    rounded="none"
+>
+    Rounded
+</Button>
+
+<Button 
+    rounded="px3"
+>
+    Rounded
+</Button>
+
+<Button 
+    rounded="px5"
+>
+    Rounded
+</Button>
+
+<Button 
+    rounded="px10"
+>
+    Rounded
+</Button>
+
+<Button 
+    rounded="full"
+>
+    Rounded
+</Button>
 `}
                     </SyntaxHighlighter>
                 </Spacing>
@@ -239,7 +431,11 @@ function ButtonDoc() {
                         <Button block>Block</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
-{`<Button block>Block</Button>
+{`<Button 
+    block={true}
+>
+    Block
+</Button>
 `}
                     </SyntaxHighlighter>
                 </Spacing>
@@ -257,7 +453,11 @@ function ButtonDoc() {
                         <Button disabled>Disabled</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
-{`<Button disabled>Disabled</Button>
+{`<Button 
+    disabled={true}
+>
+    Disabled
+</Button>
 `}
                     </SyntaxHighlighter>
                 </Spacing>
@@ -275,7 +475,11 @@ function ButtonDoc() {
                         <Button onClick={() => alert('Button was clicked')}>onClick</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
-{`<Button onClick={() => alert('Button was clicked')}>onClick</Button>
+{`<Button 
+    onClick={() => alert('Button was clicked')}
+>
+    onClick
+</Button>
 `}
                     </SyntaxHighlighter>
                 </Spacing>

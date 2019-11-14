@@ -18,6 +18,9 @@ const Space = styled('div')`
 function GettingStarted() {
     return (
         <Wrapper>
+            <Title tag="h2" marginBottom="px30">
+                Getting Started
+            </Title>
             <Title tag="h3" marginBottom="px30">
                 How can I install the library?
             </Title>
