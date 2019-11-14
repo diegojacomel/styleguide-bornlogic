@@ -12,7 +12,7 @@ import MyRouter from 'router/router';
 const ContentWrapper = styled('div')`
     background: #ffffff;
     color: #333333;
-    padding: 20px 0;
+    padding: 30px 0;
     flex-basis: calc(100% - 320px);
     box-sizing: border-box;
     flex-shrink: 1;
