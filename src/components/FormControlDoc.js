@@ -30,7 +30,7 @@ function FormControlDoc() {
                 FormControl
             </Title>
             <Title tag="h4" marginBottom="px20">
-                    Basic usage
+                Basic usage
             </Title>
             <Spacing>
                 <FormControl>

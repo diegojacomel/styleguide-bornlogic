@@ -33,6 +33,7 @@ const HeaderMenuItem = styled('li')`
 const CustomLink = styled(Link)`
     color: #ffffff;
     text-decoration: none;
+    margin-left: 20px;
 `
 
 function Header() {
@@ -45,6 +46,9 @@ function Header() {
                 <HeaderMenuItem>
                     <CustomLink to="/">
                         Getting Started
+                    </CustomLink>
+                    <CustomLink to="/Theme">
+                        Theme
                     </CustomLink>
                 </HeaderMenuItem>
             </HeaderMenu>

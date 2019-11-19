@@ -18,6 +18,9 @@ function RadioDoc() {
                 <Title tag="h3" marginBottom="px20">
                     Panel
                 </Title>
+                <Title tag="h4" marginBottom="px20">
+                    Basic usage
+                </Title>
                 <FormControl>
                     <Radio name="radio" id="radio_1" text="Option 1" />
                     <Radio name="radio" id="radio_2" text="Option 2" />

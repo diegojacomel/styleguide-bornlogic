@@ -70,15 +70,43 @@ function ContainerDoc() {
                     </Container>
                 </Spacing>
                 <Spacing>
-                        <SyntaxHighlighter language="react" style={docco}>
+                    <SyntaxHighlighter language="react" style={docco}>
 {`<Container maxWidth="200px">
     <div style={{ background: '#f2f2f2', width: '100%' }}>
         Container
     </div>
 </Container>
 `}
-                        </SyntaxHighlighter>
-                    </Spacing>
+                    </SyntaxHighlighter>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
+                        noLeft
+                    </Text>
+                    <Text>
+                        It specifies if the container has padding left.
+                    </Text>
+                    <Text>
+                        type: boolean
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Container noLeft={true}>
+                        <div style={{ background: '#f2f2f2', width: '100%' }}>
+                            Container
+                        </div>
+                    </Container>
+                </Spacing>
+                <Spacing>
+                    <SyntaxHighlighter language="react" style={docco}>
+{`<Container noLeft={true}>
+    <div style={{ background: '#f2f2f2', width: '100%' }}>
+        Container
+    </div>
+</Container>
+`}
+                    </SyntaxHighlighter>
+                </Spacing>
             </Spacing>
         </>
     )

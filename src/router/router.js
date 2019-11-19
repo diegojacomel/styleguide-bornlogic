@@ -23,6 +23,7 @@ import ProgressBarDoc from 'components/ProgressBarDoc';
 import RadioDoc from 'components/RadioDoc';
 import SelectDoc from 'components/SelectDoc';
 import TitleDoc from 'components/TitleDoc';
+import ThemeDoc from 'components/ThemeDoc';
 
 const MyRouter = () => {
     return (
@@ -46,6 +47,7 @@ const MyRouter = () => {
             <Route path="/Radio" component={RadioDoc} exact />
             <Route path="/Select" component={SelectDoc} exact />
             <Route path="/Title" component={TitleDoc} exact />
+            <Route path="/Theme" component={ThemeDoc} exact />
         </Switch>
     )
 }

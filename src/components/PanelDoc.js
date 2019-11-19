@@ -18,6 +18,9 @@ function PanelDoc() {
                 <Title tag="h3" marginBottom="px20">
                     Panel
                 </Title>
+                <Title tag="h4" marginBottom="px20">
+                    Basic usage
+                </Title>
                 <Panel
                     title="Title"
                     subtitle="Subtitle"

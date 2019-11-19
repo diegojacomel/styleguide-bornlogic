@@ -11,18 +11,56 @@ const Spacing = styled('div')`
     margin-bottom: 40px;
 `
 
+const Text = styled('p')`
+${({ bold }) =>`
+    ${bold
+        ?
+        `
+        font-weight: bold;
+        `
+        :
+        ``
+    }
+`}`
+
 function LocalLoadingDoc() {
     return (
         <Spacing>
             <Title tag="h3" marginBottom="px20">
                 Loading
             </Title>
+            <Title tag="h4" marginBottom="px20">
+                Basic usage
+            </Title>
             <Spacing>
-            <LocalLoading isLoading={true} image="https://picsum.photos/30/30" />
+                <LocalLoading />
                 <SyntaxHighlighter language="react" style={docco}>
-{`<LocalLoading isLoading={true} />
+{`<LocalLoading />
 `}
                 </SyntaxHighlighter>
+            </Spacing>
+            <Spacing>
+                <Title tag="h4" marginBottom="px20">
+                    Props
+                </Title>
+                <Spacing>
+                    <Text bold>
+                        isLoading
+                    </Text>
+                    <Text>
+                        It specifies if the Loading component will be shown.
+                    </Text>
+                    <Text>
+                        type: boolean
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <LocalLoading isLoading={true} />
+                    <SyntaxHighlighter language="react" style={docco}>
+    {`<LocalLoading isLoading={true} />
+    `}
+                    </SyntaxHighlighter>
+                </Spacing>
             </Spacing>
         </Spacing>
     )

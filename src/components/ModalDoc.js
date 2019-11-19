@@ -19,6 +19,9 @@ function ModalDoc() {
             <Title tag="h3" marginBottom="px20">
                 Modal
             </Title>
+            <Title tag="h4" marginBottom="px20">
+                Basic usage
+            </Title>
             <Button onClick={() => setToggleModal(true)}>
                 Open Modal
             </Button>

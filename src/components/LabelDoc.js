@@ -24,7 +24,7 @@ function LabelDoc() {
                 <Label>
                     Label
                 </Label>
-                <SyntaxHighlighter language="react" style={docco}>
+                <SyntaxHighlighter language="html" style={docco}>
 {`<Label>
     Label
 </Label>
