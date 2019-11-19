@@ -11,6 +11,18 @@ const Spacing = styled('div')`
     margin-bottom: 40px;
 `
 
+const Text = styled('p')`
+${({ bold }) =>`
+    ${bold
+        ?
+        `
+        font-weight: bold;
+        `
+        :
+        ``
+    }
+`}`
+
 function RadioDoc() {
     return (
         <Spacing>
@@ -34,6 +46,44 @@ function RadioDoc() {
 </FormControl>
 `}
                 </SyntaxHighlighter>
+            </Spacing>
+            <Spacing>
+                <Title tag="h4" marginBottom="px20">
+                    Props
+                </Title>
+                <Spacing>
+                    <Text bold>
+                        name
+                    </Text>
+                    <Text>
+                        It define the radio name.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
+                        id
+                    </Text>
+                    <Text>
+                        It define the radio id.
+                    </Text>
+                    <Text>
+                        type: any
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
+                        text
+                    </Text>
+                    <Text>
+                        It define the radio label.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
             </Spacing>
         </Spacing>
     )

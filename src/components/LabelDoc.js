@@ -11,6 +11,18 @@ const Spacing = styled('div')`
     margin-bottom: 40px;
 `
 
+const Text = styled('p')`
+${({ bold }) =>`
+    ${bold
+        ?
+        `
+        font-weight: bold;
+        `
+        :
+        ``
+    }
+`}`
+
 function LabelDoc() {
     return (
         <Spacing>
@@ -30,6 +42,33 @@ function LabelDoc() {
 </Label>
 `}
                 </SyntaxHighlighter>
+            </Spacing>
+            <Spacing>
+                <Title tag="h4" marginBottom="px20">
+                    Props
+                </Title>
+                <Spacing>
+                    <Text bold>
+                        htmlFor
+                    </Text>
+                    <Text>
+                        It specifies the bind between the label and the input.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Label htmlFor="input_1">
+                        Label
+                    </Label>
+                    <SyntaxHighlighter language="html" style={docco}>
+{`<Label htmlFor="input_1">
+    Label
+</Label>
+`}
+                    </SyntaxHighlighter>
+                </Spacing>
             </Spacing>
         </Spacing>
     )

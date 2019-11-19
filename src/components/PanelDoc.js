@@ -11,6 +11,18 @@ const Spacing = styled('div')`
     margin-bottom: 40px;
 `
 
+const Text = styled('p')`
+${({ bold }) =>`
+    ${bold
+        ?
+        `
+        font-weight: bold;
+        `
+        :
+        ``
+    }
+`}`
+
 function PanelDoc() {
     return (
         <Spacing>
@@ -44,6 +56,66 @@ function PanelDoc() {
 </Panel>
 `}
                 </SyntaxHighlighter>
+            </Spacing>
+            <Spacing>
+                <Title tag="h4" marginBottom="px20">
+                    Props
+                </Title>
+                <Spacing>
+                    <Text bold>
+                        title
+                    </Text>
+                    <Text>
+                        It define the panel title.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
+                        subtitle
+                    </Text>
+                    <Text>
+                        It define the panel subtitle.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
+                        subtitleColor
+                    </Text>
+                    <Text>
+                        It define the panel subtitle color.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
+                        showBoxShadow
+                    </Text>
+                    <Text>
+                        It define if the panel will have shadow.
+                    </Text>
+                    <Text>
+                        type: boolean
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
+                        showBorder
+                    </Text>
+                    <Text>
+                        It define if the panel will have border.
+                    </Text>
+                    <Text>
+                        type: boolean
+                    </Text>
+                </Spacing>
             </Spacing>
         </Spacing>
     )
