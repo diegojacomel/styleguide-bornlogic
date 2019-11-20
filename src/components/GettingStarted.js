@@ -18,6 +18,9 @@ const Space = styled('div')`
 function GettingStarted() {
     return (
         <Wrapper>
+            <Title tag="h1" marginBottom="px20">
+                Documentation
+            </Title>
             <Title tag="h2" marginBottom="px30">
                 Getting Started
             </Title>
