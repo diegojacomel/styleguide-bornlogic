@@ -110,6 +110,28 @@ function InputDoc() {
                 </Spacing>
                 <Spacing>
                     <Text bold>
+                        placeholder
+                    </Text>
+                    <Text>
+                        It define the input placeholder.
+                    </Text>
+                    <Text>
+                        type: string
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Input 
+                        placeholder="Type your text here"
+                    />
+                    <SyntaxHighlighter language="react" style={docco}>
+{`<Input 
+    placeholder="Type your text here"
+/>
+`}
+                    </SyntaxHighlighter>
+                </Spacing>
+                <Spacing>
+                    <Text bold>
                         withoutBorder
                     </Text>
                     <Text>
@@ -122,10 +144,12 @@ function InputDoc() {
                 <Spacing>
                     <Input 
                         withoutBorder={true}
+                        placeholder="Type your text here"
                     />
                     <SyntaxHighlighter language="react" style={docco}>
 {`<Input 
     withoutBorder
+    placeholder="Type your text here"
 />
 `}
                     </SyntaxHighlighter>
