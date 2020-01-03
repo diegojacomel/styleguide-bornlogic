@@ -107,6 +107,34 @@ function ContainerDoc() {
 `}
                     </SyntaxHighlighter>
                 </Spacing>
+                <Spacing>
+                    <Text bold>
+                        spacingDefault
+                    </Text>
+                    <Text>
+                        It keeps the padding left of 30px on screens smaller than 1200px if attribute noLeft is setted.
+                    </Text>
+                    <Text>
+                        type: boolean
+                    </Text>
+                </Spacing>
+                <Spacing>
+                    <Container noLeft spacingDefault>
+                        <div style={{ background: '#f2f2f2', width: '100%' }}>
+                            Container
+                        </div>
+                    </Container>
+                </Spacing>
+                <Spacing>
+                    <SyntaxHighlighter language="react" style={docco}>
+{`<Container spacingDefault>
+    <div style={{ background: '#f2f2f2', width: '100%' }}>
+        Container
+    </div>
+</Container>
+`}
+                    </SyntaxHighlighter>
+                </Spacing>
             </Spacing>
         </>
     )
