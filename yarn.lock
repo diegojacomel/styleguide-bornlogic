@@ -2247,10 +2247,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bornlogic-react-components@^0.8.7:
-  version "0.8.7"
-  resolved "https://registry.yarnpkg.com/bornlogic-react-components/-/bornlogic-react-components-0.8.7.tgz#20813ffb6bec97a12f63ec0380b508bc98d15bd7"
-  integrity sha512-Dz+0fh/+pP3y7OprTTSunkue/wrl6cfZAcej/w7aVWUlRZpCBc8qLh2Jd3l2MaPWxCnbFcAYq/azWX6F/+yNaw==
+bornlogic-react-components@^0.8.15:
+  version "0.8.15"
+  resolved "https://registry.yarnpkg.com/bornlogic-react-components/-/bornlogic-react-components-0.8.15.tgz#f57d8230182ba91d2e021b49ca31f16816ca288f"
+  integrity sha512-rhg1QJ1y0hjeNTOggbCze70nLpzrqlN+a6Nzhl3p3inCqK70mrmdjMkLYPS6ZORWJ+VqApK8X5EewoTVWzt9mg==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.21"
     "@fortawesome/free-solid-svg-icons" "^5.10.1"
@@ -2260,7 +2260,7 @@ bornlogic-react-components@^0.8.7:
     rc-progress "^2.5.2"
     react "^16.9.0"
     react-dom "^16.9.0"
-    react-modal "^3.11.1"
+    react-modal "^3.8.1"
     react-router-dom "^5.1.2"
     styled-components "^4.3.2"
 
@@ -8485,7 +8485,7 @@ react-lifecycles-compat@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-modal@^3.11.1:
+react-modal@^3.8.1:
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.11.1.tgz#2a0d6877c9e98f123939ea92d2bb4ad7fa5a17f9"
   integrity sha512-8uN744Yq0X2lbfSLxsEEc2UV3RjSRb4yDVxRQ1aGzPo86QjNOwhQSukDb8U8kR+636TRTvfMren10fgOjAy9eA==

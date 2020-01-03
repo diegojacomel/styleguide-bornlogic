@@ -11,8 +11,21 @@ const Spacing = styled('div')`
     margin-bottom: 40px;
 `
 
+const Text = styled('p')`
+${({ bold }) =>`
+    ${bold
+        ?
+        `
+        font-weight: bold;
+        `
+        :
+        ``
+    }
+`}`
+
 function ButtonIconDoc() {
     return (
+        <>
         <Spacing>
             <Title tag="h3" marginBottom="px20">
                 ButtonIcon
@@ -26,6 +39,40 @@ function ButtonIconDoc() {
 `}
             </SyntaxHighlighter>    
         </Spacing>
+         <Spacing id="buttonClose">
+         <Title tag="h4" marginBottom="px20">
+             Props
+         </Title>
+         <Spacing>
+             <Text bold>
+                 color
+             </Text>
+             <Text>
+                 It defines a different color to the icon (default blueGrey3)
+             </Text>
+             <Text>
+                 type: string
+             </Text>
+             <Spacing>
+                 <ButtonIcon
+                    onClick={() => alert('ButtonIcon was clicked')}
+                    color='green3'
+                     styleguide
+                 />
+             </Spacing>
+             <Spacing>
+                 <SyntaxHighlighter language="react" style={docco}>
+{`<ButtonIcon
+ onClick={() => alert('ButtonIcon was clicked')}
+ color='green3'
+/>
+`}
+                 </SyntaxHighlighter>
+             </Spacing>
+         </Spacing>
+         
+        </Spacing>
+        </>
     )
 }
 

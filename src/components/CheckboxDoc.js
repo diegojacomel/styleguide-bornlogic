@@ -1,5 +1,5 @@
 // Modules
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
@@ -23,7 +23,14 @@ ${({ bold }) =>`
     }
 `}`
 
+
 function CheckboxDoc() {
+    const [isChecked, setIsChecked] = useState(false);
+
+    const toggleCheck = () => {
+        setIsChecked(!isChecked)
+    }
+
     return (
         <>
             <Spacing>
@@ -37,7 +44,9 @@ function CheckboxDoc() {
                     <Checkbox
                         name="checkbox_1"
                         id="checkbox_1"
-                        color="blue2"
+                        color="blue3"
+                        onClick={toggleCheck}
+                        checked={isChecked}
                     />
                     <Label leftSpace htmlFor="checkbox_1">
                         Checkbox 1
@@ -47,7 +56,7 @@ function CheckboxDoc() {
 {`<FormControl inline>
     <Checkbox
         name="checkbox_1"
-        color="blue2"
+        color="blue3"
     />
     <Label leftSpace htmlFor="checkbox_1">
         Checkbox 1
@@ -98,7 +107,7 @@ function CheckboxDoc() {
                         checked
                     </Text>
                     <Text>
-                        It specifies id the checkbox is checked.
+                        It specifies if the checkbox is checked.
                     </Text>
                     <Text>
                         type: boolean
@@ -131,8 +140,9 @@ function CheckboxDoc() {
                         <Checkbox
                             name="checkbox_2"
                             id="checkbox_2"
-                            onClick={(e) => console.log(`You {!!e.target.checked ? '' : 'un'}selected the checkbox: {e.target.name}`)}
+                            onClick={toggleCheck}
                             color="green3"
+                            checked={isChecked}
                         />
                         <Label leftSpace htmlFor="checkbox_2">
                             Checkbox 2

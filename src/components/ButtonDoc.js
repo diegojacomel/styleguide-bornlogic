@@ -9,6 +9,10 @@ import { Title, Button } from 'bornlogic-react-components';
 
 const Spacing = styled('div')`
     margin-bottom: 40px;
+    button {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 `
 
 const Text = styled('p')`
@@ -68,8 +72,8 @@ function ButtonDoc() {
                         <Button backgroundColor="blue2" backgroundHoverColor="blue1">Blue</Button>
                         <Button backgroundColor="red3" backgroundHoverColor="red2">Red</Button>
                         <Button backgroundColor="orange3" backgroundHoverColor="orange2">Orange</Button>
-                        <Button backgroundColor="grey3" backgroundHoverColor="grey2">Grey</Button>
-                        <Button backgroundColor="pink">Pink</Button>
+                        <Button backgroundColor="grey1" backgroundHoverColor="grey2">Grey</Button>
+                        <Button backgroundColor="pink1">Pink</Button>
                         <Button backgroundColor="purple">Purple</Button>
                         <Button backgroundColor="brown">Brown</Button>
                     </Spacing>
@@ -104,14 +108,14 @@ function ButtonDoc() {
 </Button>
 
 <Button 
-    backgroundColor="grey3"
+    backgroundColor="grey1"
     backgroundHoverColor="grey2"
 >
     Grey
 </Button>
 
 <Button 
-    backgroundColor="pink"
+    backgroundColor="pink1"
 >
     Pink
 </Button>
@@ -142,12 +146,12 @@ function ButtonDoc() {
                         type: string
                     </Text>
                     <Spacing>
-                        <Button fontColor="purple" backgroundColor="pink" fontHoverColor="white">Grey</Button>
+                        <Button fontColor="purple" backgroundColor="pink1" fontHoverColor="white">Grey</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco} wrapLines={true}>
 {`<Button 
     fontColor="purple"
-    backgroundColor="pink"
+    backgroundColor="pink1"
     fontHoverColor="white"
 >
     Grey
@@ -170,10 +174,10 @@ function ButtonDoc() {
                         <Button backgroundColor="blue2" outline>Blue</Button>
                         <Button backgroundColor="red3" outline>Red</Button>
                         <Button backgroundColor="orange3" outline>Orange</Button>
-                        <Button backgroundColor="pink" outline>Pink</Button>
+                        <Button backgroundColor="pink1" outline>Pink</Button>
                         <Button backgroundColor="purple" outline>Purple</Button>
                         <Button backgroundColor="brown" outline>Brown</Button>
-                        <Button backgroundColor="grey3" outline>Grey</Button>
+                        <Button backgroundColor="grey1" outline>Grey</Button>
                     </Spacing>
                     <SyntaxHighlighter language="react" style={docco}>
 {`<Button 
@@ -205,7 +209,7 @@ function ButtonDoc() {
 </Button>
 
 <Button 
-    backgroundColor="pink" 
+    backgroundColor="pink1" 
     outline
 >
     Pink
@@ -226,7 +230,7 @@ function ButtonDoc() {
 </Button>
 
 <Button 
-    backgroundColor="grey3" 
+    backgroundColor="grey1" 
     outline
 >
     Grey
